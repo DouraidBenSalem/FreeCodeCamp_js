@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+<body >
+    <div id="grid_container">
+        <div id="header">
+            <h1>Pokémon Search App</h1>
+        </div>
+        <div id="body">
+            <div id="search_pok">
+            <h1 id="title">Search for Pokémon Name or ID:</h1>
+            <div id="search_pok_but">
+            <label for="search-input">Search for Pokémon Name or ID:</label><input type="text" id="search-input" placeholder="Enter Pokémon Name or ID"><button id="search-button">Search</button>
+            </div>
+            </div>
+            <div id="imagee">
+            <img id="image" alt="">
+            </div>
+            <table  id="table" >
+                <tr>
+                  <th>Name</th>
+                  <th>ID</th>
+                  <th>Weight</th>
+                  <th>Height</th>
+                  <th>Types</th>
+                  <th>HP</th>
+                </tr>
+                <tr>
+                  <td><span id="pokemon-name"></span></td>
+                  <td><span id="pokemon-id"></span></td>
+                  <td><span id="weight"></span></td>
+                  <td><span id="height"></span></td>
+                  <td><span id="types"></span></td>
+                  <td><span id="hp"></span></td>
+                </tr>
+                <tr>
+                    <th>Attack</th>
+                    <th>Defense</th>
+                    <th>Special Attack</th>
+                    <th>Special Defense</th>
+                    <th>Speed</th>
+                </tr>
+                <tr>
+                    <td><span id="attack"></span></td>
+                    <td><span id="defense"></span></td>
+                    <td><span id="special-attack"></span></td>
+                    <td><span id="special-defense"></span></td>
+                    <td><span id="speed"></span></td>
+                    
+                </tr>
+              </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

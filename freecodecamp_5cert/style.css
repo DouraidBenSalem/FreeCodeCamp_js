@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    font-family: system-ui;
+}
+#grid_container{
+   display: grid;
+   height: 100vh;
+   grid-template-rows: 80px 9fr;
+   grid-template-areas: 
+     "header"
+     "body"
+   ;
+}
+#header{
+    grid-area: header;
+    background-color: white;
+    text-align: center;
+    color: #000099;
+    margin-top: 10px;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+#body{
+    grid-area: body;
+    background-color: #e6e6e6;
+}
+#search_pok{
+    margin: 30px 0px;
+}
+#title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
+#search_pok_but{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+#search-input{
+    padding: 10px 20px;
+    width: 200px;
+    border: 1px solid black;
+    border-right: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#search-button{
+    width: 100px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    background-color: #000099;
+    border: 1px solid #000099;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    font-size: medium;
+    transition-duration: 0.5s;
+}
+#search-button:hover{
+    font-size: small;
+    animation-duration: 1s;
+}
+
+#table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 50px;
+    height: 300px;
+}
+#table th, #table td{
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: left;
+}
+#table td{
+   padding: 40px;
+}
+#table th{
+    background-color: #000099;
+    font-weight: 400;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 0.5px;
+}
+#table tr:nth-child(even){
+    background-color: #f9f9f9;
+}
+#imagee{
+    display: flex;
+    justify-content: center;
+}
+#image{
+    width: 200px;
+    height: 200px;
+}
+
