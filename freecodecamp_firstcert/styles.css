@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    font-family: system-ui;
+}
+body{
+    background-color: #1f242d;
+    color: white;
+}
+h1{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+#desc{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+p{
+    text-align: center;
+    letter-spacing: 0.2;
+    color:#00eeff;
+    font-size: 20px;
+    width: 500px;
+}
+#flex_container
+{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    padding-top: 20px;
+    background-color: white;
+    color: black;
+    width: 600px;
+    height: 170px;
+    border-radius: 30px;
+     box-shadow: 0 0 20px rgb(0, 238, 255);
+}
+#label{
+    text-align: center;
+}
+#text-input{
+  width: 300px;
+  padding: 12px 0px 12px 10px;
+  background: none;
+  border-radius: 10px;
+  border-bottom: 3px solid black;
+  margin-bottom: 30px;
+  margin-left: 135px;
+  margin-top: 20px;
+  color: black;
+  letter-spacing: 0.px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#check-btn{
+    border: none;
+    border-radius: 10px;
+    color: #1f242d;
+    background-color: #00eeff;
+    padding: 10px 35px;
+    letter-spacing: 0.3px;
+    margin-left: 240px;
+    font-size: 15px;
+    transition-duration: 0.5s;
+}
+#check-btn:hover{
+    color: white;
+    cursor: pointer;
+    transform: scale(1.1); 
+}
+#result{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
