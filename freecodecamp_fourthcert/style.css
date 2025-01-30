@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    font-family: system-ui;
+}
+
+body{
+    background-color: #1f242d;
+    color: white;
+}
+#container_element{
+    margin-top: 50px;
+    border-radius: 5px;
+}
+#container{
+    display: flex;
+    padding-bottom: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#title{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+#cashh{
+    margin-bottom: 10px;
+}
+#cash{
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 10px 20px;
+    width: 220px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#purchase-btn{
+    border: none;
+    border-radius: 20px;
+    color: #1f242d;
+    background-color: #00eeff;
+    padding: 6px 25px;
+    letter-spacing: 0.3px;
+    font-size: 15px;
+    transition-duration: 0.5s;
+    box-shadow: 0px 4px 14px -2px rgb(0, 238, 255);
+}
+.price-screen {
+    margin-top: 30px;
+    border: 20px solid #fff8dc;
+    border-radius: 20px;
+    background-color: black;
+    height: 50px;
+    width: 200px;
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.connector {
+    background-color: #fff8dc;
+    height: 50px;
+    width: 30px;
+    margin-left: 100px;
+}
+.top-register{
+    background-color: #fff8dc;
+    display: flex;
+    border-radius: 20px;
+    justify-content: space-around;
+    color: black;
+    width: 600px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.btns-container{
+    margin-top: 50px;
+    width: 130px;
+} 
+.btn{
+    margin: 3px;
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border-radius: 30px;
+}
+#cash-drawer-display{
+    border: 6px solid black;
+    padding: 10px;
+}
+.bottom-register{
+    display: flex;
+    justify-content: center;
+    background-color: #fff8dc;
+    width: 500px;
+    height: 100px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top: 2px solid black;
+}
+.circle{
+    border: 5px solid #00eeff;
+    margin-top: 40px;
+    background-color: black;
+    border-radius: 60px;
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+
+
+
+
+
